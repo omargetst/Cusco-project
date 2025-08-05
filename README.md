@@ -18,11 +18,16 @@ Este proyecto proporciona una interfaz interactiva construida con [Streamlit](ht
 
 ---
 
-## 📷 Captura de pantalla
-
-![demo](https://github.com/tu-usuario/tu-repo/assets/demo.png)
-
----
-
 ## 🛠️ Estructura del proyecto
 
+asistente-ollama/
+│
+├── app.py ← archivo principal de la app Streamlit
+├── requirements.txt ← dependencias para ejecutarla
+├── README.md ← documentación del proyecto
+└── chat/
+├── init.py
+├── ollama_api.py ← manejo de llamadas a Ollama
+├── extractors.py ← OCR y lectura de PDF o imágenes
+├── state.py ← manejo de sesión
+└── utils.py ← utilidades (copiado, estilos, etc.)
